@@ -71,6 +71,9 @@ function nextPlayer(){
        document.querySelector('.player-0-panel').classList.toggle('active');
        document.querySelector('.player-1-panel').classList.toggle('active');
 }
+
+
+
 document.querySelector('.btn-new').addEventListener('click',init);
 function init() {
     activePlayer=0;
